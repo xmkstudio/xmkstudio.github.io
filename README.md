@@ -34,5 +34,5 @@
 
 ###### Disclaimers (but wait, there's more!)
 - My derivative Cyberpunk works on AO3 touch on several potentially triggering subjects, and as such, reader discretion is ***strongly*** advised.
-- The names and plots associated with my non-AO3 works remain solely the intellectual property of XMK Studios. Please respect that.
+- The names and plots associated with my non-AO3 works remain solely the intellectual property of XMK Studio. Please respect that.
 - No AI was used in the creation or configuration of this site, or in any of my writing. Not now, not ***ever***.
