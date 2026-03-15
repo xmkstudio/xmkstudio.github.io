@@ -29,5 +29,5 @@
 - ***Unnamed steampunk novel***
 - ***Unnamed post-apocalypse novel***
 
-### *"Merc"* the good boy
+### What you're all *really* here for...
 ![Merc the good boy](./assets/merc_bnw_480p.jpg)
