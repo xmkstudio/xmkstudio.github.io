@@ -10,9 +10,9 @@
 - Avid gamer; *Final Fantasy VII* remains the best game of all time.
 - Guardian of *"Merc"*, a rescued Thai Ridgeback / Lab mix (see below)
 - ***"Why the name change?"***
-  - While *"dubsyGG"* served me well over the years, I often associate this name with a less serious version of myself; a version in which content creation in all of its forms was only a fun hobby. Given my recent shift to pursue writing as a genuine potential career option, it makes sense to also shift my online identity to something more appropriate and publicly recognizable
+  - While *"dubsyGG"* served me well over the years, I often associate this name with a less serious version of myself; a version in which content creation in all of its forms was only a fun hobby. Given my recent shift to pursue writing as a genuine potential career option, it makes sense to also shift my online identity to something more appropriate and publicly recognizable... such as my pen name.
 - ***"What are your PC specs?"***
-  - Why thank you for asking... a full read-out on my setup can be seen [here](./.pages/specs.md).
+  - Why thank you for asking... a full read-out on my setup can be seen [here](.pages/specs.md).
 
 ### Where to find me:
 - [***Archive of Our Own***](https://archiveofourown.org/users/XanderMK) : Fanfiction and other writing projects
@@ -30,4 +30,4 @@
 - ***Unnamed post-apocalypse novel***
 
 ### *"Merc"* the good boy
-![Merc the good boy](./.assets/merc_bnw_480p.jpg)
+![Merc the good boy](.assets/merc_bnw_480p.jpg)
