@@ -1,0 +1,20 @@
+body {
+    margin: auto;
+    max-width: 100ch;
+    padding: 1ch 2ch;
+    font-family: "Lora";
+    background-color: #002b36;
+    color: #93a1a1;
+}
+
+a {
+    color: #268bd2;
+}
+
+.left-aligned {
+    float: left;
+}
+
+.right-aligned {
+    float: right;
+}

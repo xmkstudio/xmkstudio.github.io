@@ -15,9 +15,9 @@
   - Why thank you for asking... a full read-out on my setup can be seen [here](./pages/specs.md).
 
 ### Where to find me:
-- [***Archive of Our Own***](https://archiveofourown.org/users/XanderMK) : Fanfiction and other writing projects
-- [***Twitch (on hiatus)***]() : Channel undergoing some long overdue renovations, plan for return in late April / early May
-- [***Bluesky***](https://bsky.app/profile/xmk.studio) : Crappy attempt to market myself on social media and provide updates to my works-in-progress
+- [**Archive of Our Own**](https://archiveofourown.org/users/XanderMK) : Fanfiction and other writing projects
+- [**Twitch (on hiatus)**]() : Channel undergoing some long overdue renovations, plan for return in late April / early May
+- [**Bluesky**](https://bsky.app/profile/xmk.studio) : Crappy attempt to market myself on social media and provide updates to my works-in-progress
 
 ### Current projects:
 - Multiple derivative works within the Cyberpunk 2077 and TTRPG universe (aka "fanfiction"), all on "AO3":
