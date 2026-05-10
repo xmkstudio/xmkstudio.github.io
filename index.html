@@ -19,7 +19,8 @@
                 const absoluteDifferenceMs = Math.abs(differenceInMilliseconds);
                 const differenceInDays = Math.floor(absoluteDifferenceMs / 86400000);
                 var currentYear = new Date().getFullYear();
-                document.getElementById("daysCount").innerHTML = differenceInDays;
+                document.getElementById("daysCount").innerHTML =
+                    differenceInDays.toLocaleString();
                 document.getElementById("currentYear").innerHTML = currentYear;
             }
         </script>

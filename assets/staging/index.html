@@ -18,7 +18,8 @@
                 const millisecondsDifference = Math.abs(currentDate - specificDate);
                 const daysDifference = Math.floor(millisecondsDifference / 86400000);
                 var currentYear = new Date().getFullYear();
-                document.getElementById("daysSince").innerHTML = daysDifference;
+                document.getElementById("daysSince").innerHTML =
+                    daysDifference.toLocaleString();
                 document.getElementById("currentYear").innerHTML = currentYear;
             }
         </script>

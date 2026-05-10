@@ -14,7 +14,7 @@ const daysDifference = Math.floor(millisecondsDifference / 86400000);
 
 const currentYear = new Date().getFullYear();
 
-// console.log(daysDifference);
+console.log(daysDifference.toLocaleString());
 
 module.exports = {
   daysDifference: daysDifference,
