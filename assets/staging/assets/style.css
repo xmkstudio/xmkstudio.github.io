@@ -3,13 +3,37 @@ body {
     max-width: 100ch;
     padding: 1ch 2ch;
     font-family: "Lora";
-    background-color: #002b36;
+    background-color: #323739;
+    background-image: url("./default-tile-texture-4kBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #839496;
+}
+
+navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+navlist navitem navlink {
+    display: block;
+    color: #838496;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
 }
 
 a {
     /* color: #2aa198; */
-    color: #4e9fc2;
+    color: #3089a0;
 }
 
 .left-aligned {

@@ -3,13 +3,16 @@ body {
     max-width: 100ch;
     padding: 1ch 2ch;
     font-family: "Lora";
-    background-color: #002b36;
+    background-color: #323739;
+    background-image: url("./default-tile-texture-4kBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #839496;
 }
 
 a {
     /* color: #2aa198; */
-    color: #4e9fc2;
+    color: #3089a0;
 }
 
 .left-aligned {
