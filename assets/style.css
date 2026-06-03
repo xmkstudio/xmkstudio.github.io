@@ -1,18 +1,74 @@
+html,
+body {
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    margin: 0 0 1em;
+}
+
 body {
     margin: auto;
     max-width: 100ch;
-    padding: 1ch 2ch;
+    /* padding: 1ch 2ch; */
     font-family: "Lora";
     background-color: #323739;
     background-image: url("./default-tile-texture-4kBG.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: #839496;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.navlist {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 32px;
+    padding-bottom: 0px;
+}
+
+.navlist a {
+    color: #3089a0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 a {
     /* color: #2aa198; */
     color: #3089a0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+    margin-bottom: 0.25rem;
+}
+
+ul {
+    margin-top: 0;
 }
 
 .left-aligned {

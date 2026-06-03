@@ -1,34 +1,52 @@
+html,
+body {
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    margin: 0 0 1em;
+}
+
 body {
     margin: auto;
     max-width: 100ch;
-    padding: 1ch 2ch;
+    /* padding: 1ch 2ch; */
     font-family: "Lora";
     background-color: #323739;
     background-image: url("./default-tile-texture-4kBG.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: #839496;
-}
-
-navlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
+    flex-direction: column;
 }
 
-navlist navitem navlink {
-    display: block;
-    color: #838496;
-    padding: 14px 16px;
-    text-decoration: none;
+.content {
+    flex: 1 0 auto;
 }
 
-.center {
+.footer {
+    flex-shrink: 0;
+}
+
+.navlist {
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
-    white-space: pre-wrap;
+    list-style: none;
+    text-align: center;
+    gap: 32px;
+    padding-bottom: 0px;
+}
+
+.navlist a {
+    color: #3089a0;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 a {
