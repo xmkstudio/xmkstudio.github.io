@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tech Stack &mdash; Xander M.K.</title>
         <link rel="icon" type="image/x-icon" href="../../assets/favicon_v4.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +20,7 @@
         </script>
     </head>
     <body onload="currentYear()">
-        <div class="content">
+        <div class="content container">
             <br />
             <br />
             <h2>A Peek Under the Hood...</h2>
@@ -36,9 +37,7 @@
             <li>Power Supply - EVGA Supernova 650W, 80+ Gold</li>
             <li>Case - System76 Nebula-36</li>
         </ul> -->
-            <h3>
-                "BLACKBOX" - Custom build, primary desktop (writing, streaming, etc...)
-            </h3>
+            <h3>"BLACKBOX" - Custom build, primary desktop (writing, streaming, etc...)</h3>
             <ul>
                 <li>Operating System - Ubuntu 26.04 LTS "Resolute Raccoon"</li>
                 <li>Motherboard - ASUS TUF Gaming B850M-Plus &micro;ATX</li>
@@ -54,48 +53,39 @@
             <h3>Peripherals (and other equipment)</h3>
             <ul>
                 <li>Headphones - BeyerDynamic TYGR 300 R open-back</li>
+                <li>Microphone - Shure MV7+; mounted on iXtech "Lizard" low-profile swivel arm</li>
                 <li>
-                    Microphone - Shure MV7+; mounted on iXtech "Lizard" low-profile swivel
-                    arm
+                    Camera - AIDA HD-100A, Arducam CS-Mount 6mm manual focus lens, generic 4K30 USB 3.0 capture card;
+                    mounted on Pictron LS11 extendable arm
                 </li>
                 <li>
-                    Camera - AIDA HD-100A, Arducam CS-Mount 6mm manual focus lens, generic
-                    4K30 USB 3.0 capture card; mounted on Pictron LS11 extendable arm
-                </li>
-                <li>
-                    Streamdeck - Deckboard on Raspberry Pi 4 w/ Android 15 mounted to 7"
-                    ElecLab touchscreen display
+                    Streamdeck - Deckboard on Raspberry Pi 4 w/ Android 15 mounted to 7" ElecLab touchscreen display
                 </li>
                 <li>Keyboards</li>
                 <ul>
                     <li>
-                        PRIMARY - KeyCult Zero Custom HHKB layout (60%), Kailh Dark
-                        Chocolate switches (creamy 55g linear, full POM pre-lubed) w/
-                        custom Yuzu PBT keycaps (Cherry profile)
+                        PRIMARY - KeyCult Zero Custom HHKB layout (60%), Kailh Dark Chocolate switches (creamy 55g
+                        linear, full POM pre-lubed) w/ custom Yuzu PBT keycaps (Cherry profile)
                     </li>
                     <li>
-                        System76 Launch (75%), Kailh Dark Chocolate switches (creamy 55g
-                        linear, full POM pre-lubed) w/ System76 double-shot PBT
-                        shine-through keycaps (Tai-Hao "Bobo" profile)
+                        System76 Launch (75%), Kailh Dark Chocolate switches (creamy 55g linear, full POM pre-lubed) w/
+                        System76 double-shot PBT shine-through keycaps (Tai-Hao "Bobo" profile)
                     </li>
                     <li>
-                        System76 Launch Lite (65%), Kailh Dark Chocolate switches (creamy
-                        55g linear, full POM pre-lubed) w/ custom Yuzu PBT keycaps (Cherry
-                        profile)
+                        System76 Launch Lite (65%), Kailh Dark Chocolate switches (creamy 55g linear, full POM
+                        pre-lubed) w/ custom Yuzu PBT keycaps (Cherry profile)
                     </li>
                     <li>
-                        HHKB Studio (60%), Kailh Dark Chocolate switches (creamy 55g
-                        linear, full POM pre-lubed) w/ HHKB Snow keycaps set (Cherry
-                        profile), integrated TrackPoint mouse pointer w/ red nub
+                        HHKB Studio (60%), Kailh Dark Chocolate switches (creamy 55g linear, full POM pre-lubed) w/ HHKB
+                        Snow keycaps set (Cherry profile), integrated TrackPoint mouse pointer w/ red nub
                     </li>
                     <li>
-                        TEX Shura DIY, Kailh Ice Cream Pro Switches (creamy 45g linear,
-                        full POM pre-lubed, no extended stem), factory keycaps (uniform
-                        "ADA" profile), integrated TrackPoint mouse pointer w/ black nub
+                        TEX Shura DIY, Kailh Ice Cream Pro Switches (creamy 45g linear, full POM pre-lubed, no extended
+                        stem), factory keycaps (uniform "ADA" profile), integrated TrackPoint mouse pointer w/ black nub
                     </li>
                     <li>
-                        Unicomp Mini-M (TKL), authentic buckling spring mechanisms
-                        (tactile and LOUD), factory keycaps (uniform "curved" profile)
+                        Unicomp Mini-M (TKL), authentic buckling spring mechanisms (tactile and LOUD), factory keycaps
+                        (uniform "curved" profile)
                     </li>
                 </ul>
                 <li>Mouse - Elecom Huge Plus trackball</li>
@@ -110,18 +100,14 @@
                 <li>Networking - Unifi Switch Flex 2.5G 8-port (no PoE)</li>
             </ul>
             <a href="../../assets/desk.jpg">
-                <img
-                    src="../../assets/desk-resize.jpg"
-                    alt="Stream workspace"
-                    width="1024"
-                />
+                <img src="../../assets/desk-resize.jpg" alt="Stream workspace" style="max-width: 100%" />
             </a>
             <br />
             <br />
             <br />
             <br />
         </div>
-        <footer>
+        <footer class="container">
             <nav>
                 <div class="navlist">
                     <a href="../../">Home</a>
@@ -130,12 +116,8 @@
             <hr style="border: none; height: 1px; background-color: #839496" />
             <div class="split-line">
                 <small>
-                    <span class="left-aligned"
-                        >Site by <a href="mailto:mrt@tooler.dev">tooler.DEV</a></span
-                    >
-                    <span class="right-aligned"
-                        >2025&ndash;<span id="currentYear"></span> XMK Studio</span
-                    >
+                    <span class="left-aligned">Site by <a href="mailto:mrt@tooler.dev">tooler.DEV</a></span>
+                    <span class="right-aligned">2025&ndash;<span id="currentYear"></span> XMK Studio</span>
                 </small>
             </div>
         </footer>
