@@ -16,9 +16,9 @@ body {
     /* padding: 1ch 2ch; */
     font-family: "Lora";
     background-color: #323739;
-    background-image: url("./default-tile-texture-4kBG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./default-tile.png");
+    background-repeat: repeat;
+    background-size: auto;
     background-attachment: fixed;
     color: #839496;
     display: flex;
